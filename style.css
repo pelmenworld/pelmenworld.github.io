@@ -52,7 +52,7 @@ header #logo{
     width: 360px;
     float: left;
     color: rgb(0, 0, 0);
-    font-size: 150%;
+    font-size: 16px;
 }
 
 header #block{
@@ -101,17 +101,17 @@ header #block5{
     margin-left: 1200px;
     margin-top: -380px;
 }
-
+    
 .warning{
     margin-top: 200px;
     margin-left: 700px;
 }
-
+    
 .trainer{
     margin-top: 1000px;
     font-size: 12px;
 }
-
+    
 @keyframes gradient{
     0%{
         background-position: 0 50%;
