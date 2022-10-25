@@ -1,0 +1,125 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    outline: orange;
+}
+
+html{height: 100%}
+
+body{
+    width: 98%;
+    height: 100%;
+    background: linear-gradient(45deg, #ffe600, #ff8800);
+    animation: gradient 10s ease infinite;
+    color: rgb(0, 0, 0);
+    font-family: 'Comforter', cursive;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+    background-size: 500% 500%;
+    font-size: 130%;
+    padding: 1%;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+a, a:hover{
+    -webkit-transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -o-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+    transition: all.4s ease;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 98%;
+    float: left;
+}
+
+header #logo{
+    width: 360px;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+header #block{
+    width: 210px;
+    float: left;
+}
+
+header #block2{
+    width: 180px;
+    float: left;
+}
+
+header #block3{
+    width: 170px;
+    float: left;
+}
+
+header #block4{
+    float: left;
+}
+
+header #block5{
+    float: right;
+}
+
+.bigFloppa{
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 18px;
+}
+.thisIs{
+    margin-left: -35px;
+}
+
+.videos{
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.video2{
+    margin-left: 600px;
+    margin-top: -522px;
+}
+
+.video3{
+    margin-left: 1200px;
+    margin-top: -380px;
+}
+    
+.warning{
+    margin-top: 200px;
+    margin-left: 700px;
+}
+    
+.trainer{
+    margin-top: 1000px;
+    font-size: 12px;
+}
+    
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
