@@ -10,8 +10,7 @@ html{height: 100%}
 body{
     width: 98%;
     height: 100%;
-    background: linear-gradient(45deg, #ffe600, #ff8800);
-    animation: gradient 10s ease infinite;
+    background-color: #ffb400;
     color: rgb(0, 0, 0);
     font-family: 'Comforter', cursive;
     font-size: 1em;
@@ -110,16 +109,4 @@ header #block5{
 .trainer{
     margin-top: 1000px;
     font-size: 12px;
-}
-    
-@keyframes gradient{
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
 }
