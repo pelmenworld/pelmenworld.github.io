@@ -13,7 +13,7 @@ body{
     height: 100%;
     background-color: #ffb400;
     color: rgb(0, 0, 0);
-    /* font-family: 'Comforter', cursive; */
+    font-family: 'Gloock', serif;
     font-size: 1em;
     line-height: 135%;
     float: left;
@@ -46,7 +46,6 @@ a, a:hover{
 header{
     width: 98%;
     float: left;
-    font-family: 'Gloock', serif;
 }
 
 header #logo{
