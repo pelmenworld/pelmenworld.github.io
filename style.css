@@ -13,7 +13,7 @@ body{
     height: 100%;
     background-color: #ffb400;
     color: rgb(0, 0, 0);
-    font-family: 'Comforter', cursive;
+    /* font-family: 'Comforter', cursive; */
     font-size: 1em;
     line-height: 135%;
     float: left;
