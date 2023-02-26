@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -45,6 +46,7 @@ a, a:hover{
 header{
     width: 98%;
     float: left;
+    font-family: 'Gloock', serif;
 }
 
 header #logo{
